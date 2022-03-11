@@ -1,0 +1,70 @@
+.home {
+  height: calc(100vh - 58px);
+  width: 100%;
+}
+
+/*  gráfico */
+.chart {
+  width: 65%;
+  border-radius: 5px;
+  background-color: #ffffff;
+  border: solid 1px #ffffff;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  animation: slide-in 1000ms;
+}
+
+@keyframes slide-in {
+  from {
+    transform: translateX(-100%);
+    opacity: 0.25;
+  }
+  to {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+}
+#chartContainer {
+  height: 300px;
+  width: 100%;
+}
+
+/* IMC */
+.imc {
+  background-color: #434396;
+  border-radius: 3px;
+  padding: 3px;
+  color: #ffffff;
+  text-align: center;
+}
+.imc span {
+  font-weight: 500;
+  margin-left: 5px;
+}
+table {
+  font-size: 10px;
+}
+.main {
+  height: auto;
+  width: 30%;
+  justify-content: center;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  animation: slide-down-top 1000ms;
+}
+@keyframes slide-down-top {
+  from {
+    transform: translateY(-100%);
+    opacity: 0.25;
+  }
+  to {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}
+
